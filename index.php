@@ -69,7 +69,7 @@
             <?php if ($i == 12) :
                 echo '</div> </div>';
             endif; ?>
-        <?php } elseif (($i >= 13 && $i <= 21)) {
+        <?php } elseif (($i >= 13 && $i <= 19)) {
             if ($i == 13) :
                 echo '<div class="col-12 col-md-6"> <div class="row g-0"> <div class="col-12">';
             endif; ?>
@@ -84,7 +84,7 @@
                         tempora voluptatum nostrum!</h4>
                 </div>
             </div>
-            <?php if ($i == 20) :
+            <?php if ($i == 19) :
                 echo '</div></div></div>';
             endif; ?>
         <?php } ?>
